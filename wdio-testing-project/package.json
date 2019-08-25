@@ -1,0 +1,32 @@
+{
+  "name": "wdio-testing-project",
+  "version": "1.0.0",
+  "description": "Udemy automated testing with webdriverIO",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/wdio wdio.conf.js",
+    "selenium-server": "./node_modules/.bin/selenium-standalone start"
+  },
+  "keywords": [
+    "webdriverio",
+    "selenium",
+    "testing"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@wdio/local-runner": "5.9.4",
+    "@wdio/cli": "5.9.4",
+    "chai": "^4.2.0",
+    "selenium-standalone": "^6.16.0",
+    "@wdio/selenium-standalone-service": "5.9.3",
+    "@wdio/spec-reporter": "5.9.3",
+    "@wdio/sync": "5.9.4",
+    "@wdio/mocha-framework": "5.9.4",
+    "webdriverio": "5.9.4",
+    "@babel/cli": "7.4.4",
+    "@babel/core": "7.4.5",
+    "@babel/preset-env": "7.4.5",
+    "@babel/register": "7.4.4"
+  }
+}
