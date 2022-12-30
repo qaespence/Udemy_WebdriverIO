@@ -22,7 +22,7 @@
     "@wdio/selenium-standalone-service": "5.9.3",
     "@wdio/spec-reporter": "5.9.3",
     "@wdio/sync": "5.9.4",
-    "@wdio/mocha-framework": "5.9.4",
+    "@wdio/mocha-framework": "8.0.14",
     "webdriverio": "5.9.4",
     "@babel/cli": "7.4.4",
     "@babel/core": "7.4.5",
